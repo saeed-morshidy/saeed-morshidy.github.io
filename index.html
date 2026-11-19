@@ -281,6 +281,8 @@
     .namecard h1 { font-size: 40px; } .namecard .role { font-size: 15px; }
   }
   @media print { .toolbar { display: none !important; } }
+  /* tidy chip rows: every row fills the column edge to edge */
+  aside .chips .chip { flex: 1 1 auto; text-align: center; }
 </style>
 </head>
 <body>
@@ -401,7 +403,7 @@
     <h3>Skills</h3>
     <div class="grp">Mobile</div>
     <div class="chips">
-      <span class="chip hot">Flutter &amp; Dart</span><span class="chip hot">Clean Architecture</span><span class="chip hot">Subscriptions · RevenueCat</span><span class="chip hot">AdMob Ads</span><span class="chip hot">Flavors / White-label</span><span class="chip hot">PDF Generation &amp; Tools</span><span class="chip hot">Localization, RTL &amp; Theming</span><span class="chip">SSH (dartssh2)</span><span class="chip">Offline-first</span><span class="chip">Advanced State Management</span><span class="chip">GetIt / injectable</span><span class="chip">Glassmorphism UI</span><span class="chip">go_router</span><span class="chip">Audio Streaming</span><span class="chip">Isar</span><span class="chip">Testing</span>
+      <span class="chip hot">Flutter &amp; Dart</span><span class="chip hot">Clean Architecture</span><span class="chip hot">Subscriptions · RevenueCat</span><span class="chip hot">AdMob Ads</span><span class="chip hot">Flavors / White-label</span><span class="chip hot">PDF Generation &amp; Tools</span><span class="chip hot">Localization, RTL &amp; Theming</span><span class="chip">Advanced State Management</span><span class="chip">Isar</span><span class="chip">SSH (dartssh2)</span><span class="chip">Offline-first</span><span class="chip">Glassmorphism UI</span><span class="chip">go_router</span><span class="chip">Audio Streaming</span><span class="chip">Testing</span>
     </div>
     <div class="grp">Linux &amp; DevOps</div>
     <div class="chips">
@@ -409,7 +411,7 @@
     </div>
     <div class="grp">Backend &amp; Data</div>
     <div class="chips">
-      <span class="chip hot">Supabase</span><span class="chip hot">PostgreSQL</span><span class="chip">RLS &amp; RPC</span><span class="chip">Edge Functions</span><span class="chip">SQLite</span><span class="chip">Firebase</span><span class="chip">REST / Dio</span><span class="chip">Migrations</span>
+      <span class="chip hot">Supabase</span><span class="chip hot">PostgreSQL</span><span class="chip">RLS &amp; RPC</span><span class="chip">Migrations</span><span class="chip">Edge Functions</span><span class="chip">SQLite</span><span class="chip">Firebase</span><span class="chip">REST / Dio</span>
     </div>
     <div class="grp">AI</div>
     <div class="chips">
