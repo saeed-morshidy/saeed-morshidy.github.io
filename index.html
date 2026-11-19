@@ -281,8 +281,11 @@
     .namecard h1 { font-size: 40px; } .namecard .role { font-size: 15px; }
   }
   @media print { .toolbar { display: none !important; } }
-  /* tidy chip rows: every row fills the column edge to edge */
-  aside .chips .chip { flex: 1 1 auto; text-align: center; }
+  /* sidebar vertical rhythm */
+  aside h3 { margin: 9pt 0 4pt; }
+  aside .grp { margin: 6pt 0 3pt; }
+  aside .chips { row-gap: 4pt; }
+  .contact li { margin: 3pt 0; }
 </style>
 </head>
 <body>
@@ -353,8 +356,8 @@
     <h2>Open Source</h2>
     <div class="oss">
       <div class="repo"><a class="name" href="https://github.com/saeed-morshidy/super-opennds">Super openNDS</a><p>Custom openNDS: voucher DB, cumulative quotas.</p></div>
-      <div class="repo"><a class="name" href="https://github.com/saeed-morshidy/supershell">supershell</a><p>Fast, safe Bash setup for Ubuntu, with CI.</p></div>
-      <div class="repo"><a class="name" href="https://github.com/saeed-morshidy/keepawake-cli">keepawake-cli</a><p>Keeps Linux awake with a live GNOME countdown.</p></div>
+      <div class="repo"><a class="name" href="https://github.com/saeed-morshidy/supershell">supershell</a><p>Fast, safe Bash setup for Ubuntu with themes, fuzzy search and CI.</p></div>
+      <div class="repo"><a class="name" href="https://github.com/saeed-morshidy/keepawake-cli">keepawake-cli</a><p>Keeps a Linux laptop awake with a live timer and a GNOME countdown.</p></div>
     </div>
 
     <h2>Education</h2>
@@ -403,23 +406,23 @@
     <h3>Skills</h3>
     <div class="grp">Mobile</div>
     <div class="chips">
-      <span class="chip hot">Flutter &amp; Dart</span><span class="chip hot">Clean Architecture</span><span class="chip hot">Subscriptions · RevenueCat</span><span class="chip hot">AdMob Ads</span><span class="chip hot">Flavors / White-label</span><span class="chip hot">PDF Generation &amp; Tools</span><span class="chip hot">Localization, RTL &amp; Theming</span><span class="chip">Advanced State Management</span><span class="chip">Isar</span><span class="chip">SSH (dartssh2)</span><span class="chip">Offline-first</span><span class="chip">Glassmorphism UI</span><span class="chip">go_router</span><span class="chip">Audio Streaming</span><span class="chip">Testing</span>
+      <span class="chip hot">Flutter &amp; Dart</span><span class="chip hot">Clean Architecture</span><span class="chip hot">Subscriptions · RevenueCat</span><span class="chip">Isar</span><span class="chip hot">AdMob Ads</span><span class="chip hot">Flavors / White-label</span><span class="chip hot">PDF Generation &amp; Tools</span><span class="chip">Testing</span><span class="chip hot">Localization, RTL &amp; Theming</span><span class="chip">Advanced State Management</span><span class="chip">Glassmorphism UI</span><span class="chip">SSH (dartssh2)</span><span class="chip">Audio Streaming</span><span class="chip">Offline-first</span>
     </div>
     <div class="grp">Linux &amp; DevOps</div>
     <div class="chips">
-      <span class="chip hot">Linux</span><span class="chip hot">Bash &amp; CLI Tools</span><span class="chip hot">OpenWrt</span><span class="chip">nftables</span><span class="chip">tc / QoS</span><span class="chip">Networking</span><span class="chip">Docker</span><span class="chip">Git &amp; GitHub</span><span class="chip">GitHub Actions</span><span class="chip">CI/CD</span><span class="chip">Fastlane</span>
+      <span class="chip hot">Bash &amp; CLI Tools</span><span class="chip hot">Linux</span><span class="chip">Docker</span><span class="chip hot">OpenWrt</span><span class="chip">Networking</span><span class="chip">tc / QoS</span><span class="chip hot">Fastlane</span><span class="chip">Git &amp; GitHub</span><span class="chip">GitHub Actions</span><span class="chip">nftables</span><span class="chip">CI/CD</span>
     </div>
     <div class="grp">Backend &amp; Data</div>
     <div class="chips">
-      <span class="chip hot">Supabase</span><span class="chip hot">PostgreSQL</span><span class="chip">RLS &amp; RPC</span><span class="chip">Migrations</span><span class="chip">Edge Functions</span><span class="chip">SQLite</span><span class="chip">Firebase</span><span class="chip">REST / Dio</span>
+      <span class="chip hot">Supabase</span><span class="chip">RLS &amp; RPC</span><span class="chip">Firebase</span><span class="chip hot">PostgreSQL</span><span class="chip">REST / Dio</span><span class="chip">SQLite</span><span class="chip">Edge Functions</span><span class="chip">Migrations</span>
     </div>
     <div class="grp">AI</div>
     <div class="chips">
-      <span class="chip gold">Prompt Engineering</span><span class="chip">Claude Code</span><span class="chip">Codex</span><span class="chip">Antigravity</span><span class="chip">ChatGPT</span><span class="chip">Vertex AI (Gemini)</span><span class="chip">Cloud TTS</span>
+      <span class="chip gold">Prompt Engineering</span><span class="chip">Claude Code</span><span class="chip">Antigravity</span><span class="chip">Cloud TTS</span><span class="chip">Codex</span><span class="chip">Vertex AI (Gemini)</span><span class="chip">ChatGPT</span>
     </div>
     <div class="grp">Other</div>
     <div class="chips">
-      <span class="chip">Python</span><span class="chip">Go <i>(learning)</i></span><span class="chip">Problem Solving · DS &amp; Algorithms</span>
+      <span class="chip">Go <i>(learning)</i></span><span class="chip">Python</span><span class="chip">Problem Solving · DS &amp; Algorithms</span>
     </div>
 
     <h3>Languages</h3>
